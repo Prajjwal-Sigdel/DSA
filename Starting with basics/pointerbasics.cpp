@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 // int main()
 // {
 //     int a;
@@ -72,25 +72,25 @@ using namespace std;
 //     return 0;
 // }
 
-int main()
-{
-    int i, n;
-    cout << "Enter the number of values in Array : ";
-    cin >> n;
+// int main()
+// {
+//     int i, n;
+//     cout << "Enter the number of values in Array : ";
+//     cin >> n;
 
-    int *ptr;
-    ptr = new int[n];
-    for (i = 0; i < n; i++)
-    {
-        cout << "Enter the value" << (i + 1) << endl;
-        cin >> ptr[i];
-    }
-    cout << "Just printing the values : " << endl;
-    for (i = 0; i < n; i++)
-    {
-        cout << ptr[i] << endl;
-    }
-    delete[] ptr;
-    system("pause");
-    return 0;
-}
+//     int *ptr;
+//     ptr = new int[n];
+//     for (i = 0; i < n; i++)
+//     {
+//         cout << "Enter the value" << (i + 1) << endl;
+//         cin >> ptr[i];
+//     }
+//     cout << "Just printing the values : " << endl;
+//     for (i = 0; i < n; i++)
+//     {git
+//         cout << ptr[i] << endl;
+//     }
+//     delete[] ptr;
+//     system("pause");
+//     return 0;
+// }
